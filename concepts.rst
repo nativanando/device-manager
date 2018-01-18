@@ -55,39 +55,7 @@ following:
      - Map of attributes currently set to this device.
 
 The *attrs* attribute is, in fact, a map associating a template ID with an
-attribute, such as:
-
-.. code-block:: json
-
-    {
-      "attrs": {
-        "1": [
-          {
-            "template_id": "1",
-            "created": "2018-01-05T15:41:54.840116+00:00",
-            "label": "this-is-a-sample-attribute",
-            "value_type": "float",
-            "type": "dynamic",
-            "id": 1
-          }
-        ],
-        "2": [
-          {
-            "template_id": "2",
-            "created": "2018-01-05T15:47:02.995541+00:00",
-            "label": "this-is-another-sample-attribute",
-            "value_type": "string",
-            "type": "dynamic",
-            "id": 4
-          }
-        ]
-      }
-    }
-
-This structure indicates that there are two attributes: one called
-``this-is-a-sample-attribute`` from template ID ``1`` and another one called
-``this-is-another-sample-attribute`` from template ID ``2``.
-
+attribute.
 
 .. list-table:: Attribute structure
    :header-rows: 1
